@@ -1,6 +1,6 @@
 {
   "name": "ignore-walk",
-  "version": "3.0.4",
+  "version": "3.0.4-lineaje-01",
   "description": "Nested/recursive `.gitignore`/`.npmignore` parsing and filtering.",
   "main": "index.js",
   "devDependencies": {
@@ -25,9 +25,15 @@
   ],
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "license": "ISC",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isaacs/ignore-walk.git"
+    "url": "https://github.com/lineaje-labs-gos/isaacs-ignore-walk"
   },
   "files": [
     "index.js"
