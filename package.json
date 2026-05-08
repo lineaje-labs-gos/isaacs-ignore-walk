@@ -39,12 +39,18 @@
     "index.js"
   ],
   "dependencies": {
-    "minimatch": "^3.0.4"
+    "minimatch": ">=3.1.5"
   },
   "tap": {
     "test-env": "LC_ALL=sk",
     "before": "test/00-setup.js",
     "after": "test/zz-cleanup.js",
     "jobs": 1
+  },
+  "overrides": {
+    "minimatch": ">=3.1.5"
+  },
+  "resolutions": {
+    "minimatch": ">=3.1.5"
   }
 }
